@@ -14,4 +14,4 @@ Clone it and open [index.html] (../feedReader/index.html) in your browser to see
 - [js](../feedReader/js) contains [app.js](../feedReader/js/app.js) file to interact with the page elements and to load the content from the application
 - [jasmine](../feedReader/jasmine) contains jasmine Framework library and spec
  - [lib](../feedReader/jasmine/lib) Jasmine library files
- - [spec](../feedReader/jasmine/spec) spec folder contains the  * [feedreader.js](../feedReader/jasmine/spec/feedreader.js) * this has all the test suits and specification
+ - [spec](../feedReader/jasmine/spec) spec folder contains the  *[feedreader.js](../feedReader/jasmine/spec/feedreader.js)* this has all the test suits and specification
