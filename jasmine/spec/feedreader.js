@@ -16,7 +16,7 @@ $(function() {
     //checks allFeeds the to be Defined and non Empty
     it('all Feeds are defined', function() {
       expect(allFeeds).toBeDefined();
-      expect(allFeedsLength).not.toBe(0);
+      expect(allFeedsLength).toBeGreaterThan(0);
     });
 
     // checks allFeeds.url and allFeeds.name are define and all are non empty
@@ -24,7 +24,7 @@ $(function() {
       console.log(allFeedsLength, allFeeds[1].url.length);
       allFeeds.forEach(function(feed) {
         expect(feed.url && feed.name).toBeDefined();
-        expect(feed.url.length && feed.name.length).not.toBe(0);
+        expect(feed.url.length && feed.name.length).toBeGreaterThan(0);
       });
     });
   });
