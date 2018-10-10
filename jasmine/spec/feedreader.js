@@ -23,7 +23,6 @@ $(function() {
     it('all urls and names are defined and are non empty', function() {
       console.log(allFeedsLength, allFeeds[1].url.length);
       allFeeds.forEach(function(feed) {
-
         expect(feed.url && feed.name).toBeDefined();
         expect(feed.url.length && feed.name.length).not.toBe(0);
       });
